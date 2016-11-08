@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.requires_arc = true
 
-  s.source = { :git => 'git@source-mobile.pa.dev:cocoapods/goodframework.git', :tag => s.version.to_s }
+  s.source = { :git => 'git@github.com:gauravlabs108/goodDynamics.git' }
 
   s.ios.deployment_target = '8.0'
 
