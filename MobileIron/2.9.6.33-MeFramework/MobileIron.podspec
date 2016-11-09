@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.requires_arc = true
 
-  SOURCE_URL = "https://vault.pa.dev/artifactory/mobile-snapshots/com/accellion/mdm/meframework/me-ios/2.9.6.35/me-ios-2.9.6.35.zip"
+  SOURCE_URL = "https://vault.pa.dev/artifactory/mobile-releases/com/accellion/mdm/meframework/me-ios/2.9.6.33/me-ios-2.9.6.33.zip"
   puts SOURCE_URL
   
   s.source = { :http => SOURCE_URL }
