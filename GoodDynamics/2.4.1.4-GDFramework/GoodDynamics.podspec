@@ -5,13 +5,16 @@ Pod::Spec.new do |s|
   s.version = '2.4.1.4-GDFramework'
   s.license = 'EULA'
   
-  s.summary = ' Good Dynamics SDK for iOS'
+  s.summary = 'Good Dynamics SDK for iOS'
   s.homepage = 'https://community.good.com'
   s.author = { 'Good Dynamics' => 'https://community.good.com' }
   s.platform = :ios
   s.requires_arc = true
 
-  s.source = { :git => 'git@source-mobile.pa.dev:cocoapods/goodframework.git', :tag => s.version.to_s }
+  SOURCE_URL = "https://vault.pa.dev/artifactory/mobile-releases/com/accellion/mdm/goodframework/good-ios/2.4.1.4/good-ios-2.4.1.4.zip"
+  puts SOURCE_URL
+  
+  s.source = { :http => SOURCE_URL }
 
   s.ios.deployment_target = '8.0'
 
